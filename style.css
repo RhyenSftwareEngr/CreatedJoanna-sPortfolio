@@ -1,5 +1,17 @@
 html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 span {
@@ -26,12 +38,25 @@ span {
     background: black;
 } */
 
+.topTextNav {
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar {
+    background-color: #5bccf6;
+}
+
 .navbar-nav li:hover {
     background-color: rgb(75, 38, 38);
     transition-delay: 0.2ms;
+    color: yellow;
 }
 
-#AboutMe {
+.navbar-nav li {
+    color: black;
+}
+
+.jumbotron-fluid #AboutMe {
     font-family: 'Yuji Mai', serif;
     font-weight: bolder;
 }
